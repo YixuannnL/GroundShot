@@ -1,0 +1,12 @@
+# Core (Mac + server). Install into the `groundshot` conda env:
+#   conda run -n groundshot pip install -r requirements.txt
+numpy<2.3
+pyyaml
+requests
+pillow
+opencv-python
+torch
+torchvision
+transformers>=4.44
+insightface
+onnxruntime
